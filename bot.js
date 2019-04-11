@@ -40,6 +40,7 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+client.login(process.env.BOT_TOKEN1);//
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
